@@ -19,6 +19,6 @@ public class HomeMethods {
 	@DocParameter(@DocAttribute(name = "name", type = String.class,description = "hello调试示范方法", example = "我是xxx"))
 	public String hello(FriendlyObject params) {
 		String name = params.getString("name");
-		return "Hello " + name + "!";
+		return "Hello ，你好，" + name + "!";
 	}
 }
